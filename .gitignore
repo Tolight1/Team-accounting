@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.nodejs/
+node
+node.cmd
+pnpm.ps1
+pnpx
+pnpx.cmd
+pnpx.ps1
+*.local
+*.tsbuildinfo

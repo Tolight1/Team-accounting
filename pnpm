@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+DIR="$(cd "$(dirname "$0")" && pwd)"
+export PATH="$DIR:$DIR/.nodejs:E:/NodeJs:$PATH"
+export PNPM_NODE_PATH="E:/NodeJs/node.exe"
+exec "E:/NodeJs/node.exe" "$DIR/node_modules/pnpm/bin/pnpm.cjs" "$@"
